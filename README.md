@@ -16,6 +16,10 @@
 |test-only|Whether to run inference only|
 |uda|Whether to use UDA|
 |ensemble|Whether to run Ensemble inference|
+
+Competition results:
+https://www.kaggle.com/c/dnn2021ssl/leaderboard
+
 **Example for training using FixMatch**
 
 train.py --low-dim 10 --lr 1e-4 --b 64 --model vgg19 --instance NAME --fixmatch True --threshold 0.95 --T 0.5
